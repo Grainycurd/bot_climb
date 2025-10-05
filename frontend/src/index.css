@@ -11,10 +11,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(135deg, 
-    var(--tg-theme-bg-color, #f0f0f0) 0%, 
-    var(--tg-theme-secondary-bg-color, #e8e8e8) 50%, 
-    var(--tg-theme-bg-color, #f5f5f5) 100%);
-  color: var(--tg-theme-text-color, #000000);
+     #f0f0f0 0%, 
+     #e8e8e8 50%, 
+    #f5f5f5 100%);
+  color:  #000000;
   overflow-x: hidden;
   min-height: 100vh;
 }
@@ -23,7 +23,7 @@ body {
   min-height: 100vh;
   max-width: 480px;
   margin: 0 auto;
-  background: var(--tg-theme-bg-color, #ffffff);
+  background: #ffffff;
 }
 
 .container {
@@ -40,9 +40,9 @@ body {
   width: 100%;
   padding: 14px 24px;
   background: linear-gradient(135deg, 
-    var(--tg-theme-button-color, #007AFF) 0%, 
-    var(--tg-theme-accent-text-color, #5856D6) 100%);
-  color: var(--tg-theme-button-text-color, #ffffff);
+     #007AFF 0%, 
+     #5856D6 100%);
+  color: #ffffff;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   font-size: 16px;
@@ -140,8 +140,8 @@ body {
 }
 
 .btn-secondary {
-  background: var(--tg-theme-secondary-bg-color, #f1f1f1);
-  color: var(--tg-theme-text-color, #000000);
+  background: #f1f1f1;
+  color: #000000;
 }
 
 .btn-icon {
@@ -159,7 +159,7 @@ body {
   justify-content: space-between;
   margin-bottom: 24px;
   padding: 16px;
-  background: var(--tg-theme-secondary-bg-color, #f1f1f1);
+  background: #f1f1f1;
   border-radius: 12px;
   margin: 16px;
   margin-bottom: 24px;
@@ -168,7 +168,7 @@ body {
 .screen-title {
   font-size: 24px;
   font-weight: 600;
-  color: var(--tg-theme-text-color, #000000);
+  color: #000000;
 }
 
 .back-btn {
@@ -176,12 +176,12 @@ body {
   border: none;
   font-size: 20px;
   cursor: pointer;
-  color: var(--tg-theme-text-color, #000000);
+  color:  #000000;
   padding: 8px;
 }
 
 .user-card {
-  background: var(--tg-theme-secondary-bg-color, #f1f1f1);
+  background: #f1f1f1;
   border-radius: 16px;
   padding: 20px;
   margin-bottom: 24px;
@@ -194,7 +194,7 @@ body {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: var(--tg-theme-button-color, #2481cc);
+  background:  #2481cc;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -211,7 +211,7 @@ body {
 
 .user-info p {
   font-size: 14px;
-  color: var(--tg-theme-hint-color, #999999);
+  color: #999999;
 }
 
 .menu-grid {
@@ -235,7 +235,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 20px;
   text-decoration: none;
-  color: var(--tg-theme-text-color, #000000);
+  color:  #000000;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
   position: relative;
@@ -277,32 +277,32 @@ body {
   display: block;
   margin-bottom: 8px;
   font-weight: 500;
-  color: var(--tg-theme-text-color, #000000);
+  color: #000000;
 }
 
 .form-input {
   width: 100%;
   padding: 12px 16px;
-  border: 1px solid var(--tg-theme-hint-color, #e0e0e0);
+  border: 1px solid  #e0e0e0;
   border-radius: 8px;
   font-size: 16px;
-  background: var(--tg-theme-bg-color, #ffffff);
-  color: var(--tg-theme-text-color, #000000);
+  background: #ffffff;
+  color: #000000;
 }
 
 .form-input:focus {
   outline: none;
-  border-color: var(--tg-theme-button-color, #2481cc);
+  border-color: #2481cc;
 }
 
 .form-select {
   width: 100%;
   padding: 12px 16px;
-  border: 1px solid var(--tg-theme-hint-color, #e0e0e0);
+  border: 1px solid  #e0e0e0;
   border-radius: 8px;
   font-size: 16px;
-  background: var(--tg-theme-bg-color, #ffffff);
-  color: var(--tg-theme-text-color, #000000);
+  background:#ffffff;
+  color: #000000;
 }
 
 .card {
@@ -338,7 +338,7 @@ body {
 
 .card-text {
   font-size: 14px;
-  color: var(--tg-theme-hint-color, #999999);
+  color:  #999999;
   margin-bottom: 4px;
 }
 
@@ -348,7 +348,7 @@ body {
   justify-content: center;
   height: 200px;
   font-size: 16px;
-  color: var(--tg-theme-hint-color, #999999);
+  color: #999999;
 }
 
 .error {
@@ -441,7 +441,7 @@ body {
 .logo-title {
   font-size: 28px;
   font-weight: 800;
-  color: var(--tg-theme-text-color, #000000);
+  color: #000000;
   line-height: 1;
   letter-spacing: -0.5px;
 }
@@ -449,7 +449,7 @@ body {
 .logo-subtitle {
   font-size: 16px;
   font-weight: 600;
-  color: var(--tg-theme-text-color, #000000);
+  color:  #000000;
   margin-left: 2px;
   line-height: 1;
   margin-top: 4px;
@@ -708,7 +708,7 @@ body {
 .route-category {
   font-size: 24px;
   font-weight: 800;
-  color: var(--tg-theme-text-color, #000000);
+  color:  #000000;
   margin-bottom: 8px;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -716,14 +716,14 @@ body {
 .route-setter {
   font-size: 16px;
   font-weight: 600;
-  color: var(--tg-theme-hint-color, #999999);
+  color:  #999999;
   margin-bottom: 4px;
 }
 
 .route-color {
   font-size: 14px;
   font-weight: 500;
-  color: var(--tg-theme-hint-color, #999999);
+  color:  #999999;
   text-transform: capitalize;
 }
 
@@ -731,7 +731,7 @@ body {
   text-align: center;
   font-size: 14px;
   font-weight: 500;
-  color: var(--tg-theme-hint-color, #999999);
+  color:  #999999;
   background: linear-gradient(135deg, 
     rgba(255, 255, 255, 0.2) 0%, 
     rgba(255, 255, 255, 0.1) 100%);
